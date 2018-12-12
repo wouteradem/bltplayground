@@ -65,7 +65,7 @@
         },
         "patches": {
         	"drupal/core": {
-        		"Layout overrides cannot be translated":	"https://www.drupal.org/files/issues/2018-11-23/2946333-layout_translation-48.patch"
+        		"Layout overrides cannot be translated": "https://www.drupal.org/files/issues/2018-11-23/2946333-layout_translation-48.patch"
         	}
         }
     }
