@@ -7,7 +7,9 @@
     "require": {
         "acquia/acsf-tools": "dev-9.x-dev",
         "acquia/blt": "^9.2.0",
-        "drupal/acsf": "^2.47.0"
+        "drupal/acsf": "^2.47.0",
+        "drupal/layout_builder_restrictions": "^1.2",
+        "drupal/layouts": "1.x-dev"
     },
     "require-dev": {},
     "config": {
