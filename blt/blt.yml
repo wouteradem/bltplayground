@@ -6,10 +6,10 @@ project:
     name: lightning
   local:
     protocol: http
-    hostname: 'local.${project.machine_name}.com'
+    hostname: acquia.jamesaldred.co.uk
 git:
   default_branch: master
-  remotes: {  }
+  remotes: 'git@github.com:jamesaldred/bltplayground.git'
 deploy:
   tag_source: true
 drush:
@@ -21,7 +21,7 @@ drush:
 modules:
   local:
     enable: [dblog, devel, seckit, views_ui]
-    uninstall: [acquia_connector, shield]
+    uninstall: [acquia_connector, shield, acsf]
   ci:
     enable: {  }
     uninstall: [acquia_connector, shield]
