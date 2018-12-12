@@ -2,43 +2,7 @@ name: acquia_onboard_dhiguazu_platform
 core: 8.x
 type: profile
 description: 'acquia_onboard_dhiguazu_platform File.'
-install:
-  - block_content
-  - breakpoint
-  - ckeditor
-  - config
-  - contextual
-  - menu_link_content
-  - datetime
-  - quickedit
-  - editor
-  - entity_reference
-  - entity_block
-  - help
-  - history
-  - menu_ui
-  - node
-  - options
-  - path
-  - pathauto
-  - page_cache
-  - taxonomy
-  - text
-  - dblog
-  - shortcut
-  - toolbar
-  - field_ui
-  - file
-  - rdf
-  - views
-  - views_ui
-  - diff
-  - image_widget_crop
-  - metatag
-  - moderation_sidebar
-  - lightning_core
 dependencies:
-  - lightning_install
   - shield
   - sitemap
   - robotstxt
@@ -46,7 +10,7 @@ dependencies:
   - default_content
   - acsf
   - trailing_slash
-excludedependencies:
+exclude_dependencies:
   - lightning_api
   - lightning_contact_form
   - lightning_media
