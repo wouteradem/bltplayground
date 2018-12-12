@@ -137,3 +137,6 @@ drush/sites/.checksums
 
 # DDev
 .ddev
+
+#Local htaccess file
+/config/default/.htaccess
