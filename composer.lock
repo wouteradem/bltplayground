@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c171a009d24fa44d31010b26fb5807f4",
+    "content-hash": "4905ef4cf8f601e3df69ae50fc36d855",
     "packages": [
         {
             "name": "acquia/acsf-tools",
@@ -2760,17 +2760,17 @@
         },
         {
             "name": "drupal/acsf",
-            "version": "2.50.0",
+            "version": "2.51.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/acsf",
-                "reference": "8.x-2.50"
+                "reference": "8.x-2.51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.50.zip",
-                "reference": "8.x-2.50",
-                "shasum": "5f3b6d46be55f389d76b444e4b6579e32b65e90f"
+                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.51.zip",
+                "reference": "8.x-2.51",
+                "shasum": "2c7cc9f02e3323daa01cb7774e333b8569cf3922"
             },
             "require": {
                 "drupal/acsf_duplication": "*",
@@ -2780,9 +2780,11 @@
             },
             "require-dev": {
                 "drupal/acsf_variables": "*",
+                "drupal/coder": "8.3.1",
                 "drupal/samlauth": "^2.0.0-alpha1",
                 "mockery/mockery": "dev-master",
-                "phpunit/phpunit": "~5.3"
+                "phpunit/phpunit": "~5.3",
+                "squizlabs/php_codesniffer": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -2790,8 +2792,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.50",
-                    "datestamp": "1539175681",
+                    "version": "8.x-2.51",
+                    "datestamp": "1544619185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2850,7 +2852,7 @@
         },
         {
             "name": "drupal/acsf_duplication",
-            "version": "2.50.0",
+            "version": "2.51.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/core": "~8.0"
@@ -2861,8 +2863,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.50",
-                    "datestamp": "1539175681",
+                    "version": "8.x-2.51",
+                    "datestamp": "1544619185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2915,7 +2917,7 @@
         },
         {
             "name": "drupal/acsf_theme",
-            "version": "2.50.0",
+            "version": "2.51.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/acsf_variables": "*",
@@ -2927,8 +2929,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.50",
-                    "datestamp": "1539175681",
+                    "version": "8.x-2.51",
+                    "datestamp": "1544619185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2981,7 +2983,7 @@
         },
         {
             "name": "drupal/acsf_variables",
-            "version": "2.50.0",
+            "version": "2.51.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/core": "~8.0"
@@ -2992,8 +2994,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.50",
-                    "datestamp": "1539175681",
+                    "version": "8.x-2.51",
+                    "datestamp": "1544619185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14419,6 +14421,11 @@
         {
             "name": "webflo/drupal-core-require-dev",
             "version": "8.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webflo/drupal-core-require-dev.git",
+                "reference": "c3b99d2add865e7308c109ef1735a39a9575ce57"
+            },
             "require": {
                 "behat/mink": "1.7.x-dev",
                 "behat/mink-goutte-driver": "^1.2",
