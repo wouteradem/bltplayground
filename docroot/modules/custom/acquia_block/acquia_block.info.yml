@@ -1,0 +1,5 @@
+name: Acquia Block
+type: module
+description: 'Allows to show a block.'
+package: Acquia
+core: '8.x'
