@@ -1,0 +1,6 @@
+acquia_onboard_jamesaldred.render:
+  path: '/acquia/onboard/{githubid}'
+  defaults:
+    _controller: '\Drupal\acquia_onboard_jamesaldred\Controller\AcquiaOnboardJamesaldredController::doRender'
+  requirements:
+    _permission: 'access content'

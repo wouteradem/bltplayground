@@ -1,0 +1,4 @@
+name: AcquiaOnboardJamesaldred
+type: module
+description: 'Provides a module for a onboarding example.'
+core: 8.x
