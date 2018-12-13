@@ -10,7 +10,7 @@ dependencies:
   - default_content
   - acsf
   - trailing_slash
-exclude_dependecies:
+exclude_dependencies:
   - lightning_api
   - lightning_contact_form
   - lightning_media
