@@ -1,0 +1,32 @@
+name: acquia_onboard_jawaadIguazu_platform
+core: 8.x
+type: profile
+description: 'ipsum lorem.'
+dependencies:
+  - shield
+  - sitemap
+  - robotstxt
+  - pathauto
+  - default_content
+  - acsf
+  - trailing_slash
+exclude_dependencies:
+  - lightning_api
+  - lightning_contact_form
+  - lightning_media
+  - lightning_media_bulk_upload
+  - lightning_search
+  - lightning_page
+  - lightning_roles
+  - lightning_media_document
+  - lightning_media_image
+  - lightning_media_instagram
+  - lightning_media_twitter
+  - lightning_media_video
+  - lightning_layout
+  - lightning_landing_page
+  - lightning_workflow
+  - lightning_scheduler
+themes:
+  - bartik
+  - seven

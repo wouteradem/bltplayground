@@ -7,7 +7,9 @@
     "require": {
         "acquia/acsf-tools": "dev-9.x-dev",
         "acquia/blt": "^9.2.0",
-        "drupal/acsf": "^2.47.0"
+        "drupal/acsf": "^2.47.0",
+        "drupal/layout_builder_restrictions": "^1.2",
+        "drupal/layouts": "1.x-dev"
     },
     "require-dev": {},
     "config": {
@@ -60,6 +62,9 @@
             "merge-scripts": true,
             "replace": false,
             "ignore-duplicates": true
+        },
+        "patches": {
+            "Layout overrides cannot be translated": "https://www.drupal.org/files/issues/2018-11-23/2946333-layout_translation-48.patch"
         }
     }
 }

@@ -1,0 +1,7 @@
+acquia_onboard_jawaadIguazu.render:
+  path: '/acquia/onboard/{githubid}'
+  defaults:
+    _controller: '\Drupal\acquia_onboard_jawaadIguazu\Controller\AcquiaOnboardJawaadIguazuController::acquiaOnboardJawaadIguazuRender'
+    _title: 'Onboarding'
+  requirements:
+    _permission: 'access content'

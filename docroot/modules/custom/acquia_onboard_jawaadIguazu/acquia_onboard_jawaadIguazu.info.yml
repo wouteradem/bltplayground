@@ -1,0 +1,5 @@
+name: acquia onboard jawaadIguazu demo
+type: module
+description: acquia onboard jawaadIguazu demo.
+package: Acquia
+core: 8.x
